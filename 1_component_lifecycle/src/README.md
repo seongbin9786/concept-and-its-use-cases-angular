@@ -10,7 +10,7 @@
 - afterContentChecked
 - afterViewInit
 - afterViewChecked
-- doCheck
+- doCheck (반복)
 - afterContentChecked (반복)
 - afterViewChecked (반복)
 - onDestory
