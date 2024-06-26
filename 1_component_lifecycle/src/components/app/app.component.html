@@ -1,6 +1,6 @@
 <h1>
   <child [prop]="someStaticValue">
-    <div>hello</div>
-    <div>world</div>
+    <div #child>some content</div>
+    <!-- #child를 child.component에서도 참조할 수 있습니다. 신기하네요. -->
   </child>
 </h1>

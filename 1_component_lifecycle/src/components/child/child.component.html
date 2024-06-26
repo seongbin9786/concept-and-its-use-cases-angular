@@ -1,6 +1,6 @@
 <ng-container>
   {{ log("dom") }}
-  <div *ngIf="_prop; else noProp" class="green"></div>
+  <div *ngIf="_prop; else noProp" class="green" #viewChild></div>
   <ng-template #noProp>
     <div class="red"></div>
   </ng-template>
