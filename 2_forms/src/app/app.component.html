@@ -1,0 +1,9 @@
+<h1>Form Example</h1>
+<form>
+  <input
+    type="email"
+    [(ngModel)]="email"
+    [ngModelOptions]="{ standalone: true }"
+  />
+  <!-- 책에선 안 나오지만, [ngModelOptions]로 standalone: true를 해주면 최소한의 속성으로 핸들링 가능하다. -->
+</form>
